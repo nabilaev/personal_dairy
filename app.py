@@ -17,9 +17,6 @@ client = MongoClient(MONGODB_URI)
 db = client[DB_NAME]
 
 app = Flask(__name__)
-connect_string = 'mongodb+srv://nabila_pramesti:Nabila19@cluster0.xemuxdz.mongodb.net/'
-client = MongoClient(connect_string)
-db = client.msib6
 
 @app.route('/')
 def home():
